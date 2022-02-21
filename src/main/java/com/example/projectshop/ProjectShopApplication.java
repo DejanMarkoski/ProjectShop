@@ -9,6 +9,7 @@ public class ProjectShopApplication {
     public static void main(String[] args) {
         System.out.println("HELLO");
         SpringApplication.run(ProjectShopApplication.class, args);
+        PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
     }
 
 }
